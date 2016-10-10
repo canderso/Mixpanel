@@ -28,7 +28,7 @@ namespace Mixpanel
     [SuppressMessage("Microsoft.Naming", "CA1704:IdentifiersShouldBeSpelledCorrectly", MessageId = "Mixpanel")]
     public sealed class MixpanelClient
     {
-        private const string BaseUrl = "http://api.mixpanel.com/";
+        private const string BaseUrl = "https://api.mixpanel.com/";
 #if WINDOWS_PHONE
         private const string DefaultUserAgentFormat = "Mozilla/5.0 (compatible; Phone; Mixpanel Windows Phone API v{0})";
 #elif NETFX_CORE

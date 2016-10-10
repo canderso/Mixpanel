@@ -6,9 +6,9 @@ using System.Runtime.Serialization;
 namespace Mixpanel
 {
     /// <summary>
-    /// Events describe things that happen in your application, usually as the result of user interaction; 
-    /// for example, when a customer reads an article, uploads content, or signs up for your service, you can send an event to record the incident. 
-    /// Events are tracked at endpoint http://api.mixpanel.com/track/
+    /// Events describe things that happen in your application, usually as the result of user interaction;
+    /// for example, when a customer reads an article, uploads content, or signs up for your service, you can send an event to record the incident.
+    /// Events are tracked at endpoint https://api.mixpanel.com/track/
     /// Source: https://mixpanel.com/help/reference/http#tracking-events
     /// </summary>
     [DataContract]
