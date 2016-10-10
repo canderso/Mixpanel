@@ -8,7 +8,7 @@ namespace Mixpanel
 {
     /// <summary>
     /// People analytics updates describe a fact you've learned about one of your customers. For example, when a customer enters their first name or their birthday into your sign-in form, or signs up for a new level of service, you may send a profile update to record what you've learned.
-    /// Profile updates are recorded at endpoint http://api.mixpanel.com/engage/.
+    /// Profile updates are recorded at endpoint https://api.mixpanel.com/engage/.
     /// Source: https://mixpanel.com/help/reference/http#people-analytics-updates
     /// </summary>
     [DataContract]
